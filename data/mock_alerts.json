@@ -1,0 +1,512 @@
+[
+  {
+    "_id": "alert-0001",
+    "_source": {
+      "timestamp": "2025-03-15T08:12:34.000Z",
+      "rule": {
+        "id": 5503,
+        "description": "SSH brute force attempt",
+        "level": 10,
+        "mitre": {
+          "technique": ["T1110"]
+        }
+      },
+      "agent": {
+        "name": "web-prod-01"
+      }
+    }
+  },
+  {
+    "_id": "alert-0002",
+    "_source": {
+      "timestamp": "2025-03-15T08:13:05.000Z",
+      "rule": {
+        "id": 5503,
+        "description": "SSH brute force attempt",
+        "level": 11,
+        "mitre": {
+          "technique": ["T1110"]
+        }
+      },
+      "agent": {
+        "name": "web-prod-01"
+      }
+    }
+  },
+  {
+    "_id": "alert-0003",
+    "_source": {
+      "timestamp": "2025-03-15T08:14:22.000Z",
+      "rule": {
+        "id": 5503,
+        "description": "SSH brute force attempt",
+        "level": 12,
+        "mitre": {
+          "technique": ["T1110"]
+        }
+      },
+      "agent": {
+        "name": "web-prod-01"
+      }
+    }
+  },
+  {
+    "_id": "alert-0004",
+    "_source": {
+      "timestamp": "2025-03-15T08:15:40.000Z",
+      "rule": {
+        "id": 5503,
+        "description": "SSH brute force attempt",
+        "level": 10,
+        "mitre": {
+          "technique": ["T1110"]
+        }
+      },
+      "agent": {
+        "name": "db-prod-02"
+      }
+    }
+  },
+  {
+    "_id": "alert-0005",
+    "_source": {
+      "timestamp": "2025-03-15T08:16:11.000Z",
+      "rule": {
+        "id": 5503,
+        "description": "SSH brute force attempt",
+        "level": 11,
+        "mitre": {
+          "technique": ["T1110"]
+        }
+      },
+      "agent": {
+        "name": "db-prod-02"
+      }
+    }
+  },
+  {
+    "_id": "alert-0006",
+    "_source": {
+      "timestamp": "2025-03-15T08:17:55.000Z",
+      "rule": {
+        "id": 5503,
+        "description": "SSH brute force attempt",
+        "level": 12,
+        "mitre": {
+          "technique": ["T1110"]
+        }
+      },
+      "agent": {
+        "name": "db-prod-02"
+      }
+    }
+  },
+  {
+    "_id": "alert-0007",
+    "_source": {
+      "timestamp": "2025-03-15T08:18:30.000Z",
+      "rule": {
+        "id": 5503,
+        "description": "SSH brute force attempt",
+        "level": 10,
+        "mitre": {
+          "technique": ["T1110"]
+        }
+      },
+      "agent": {
+        "name": "web-prod-01"
+      }
+    }
+  },
+  {
+    "_id": "alert-0008",
+    "_source": {
+      "timestamp": "2025-03-15T08:19:12.000Z",
+      "rule": {
+        "id": 5503,
+        "description": "SSH brute force attempt",
+        "level": 11,
+        "mitre": {
+          "technique": ["T1110"]
+        }
+      },
+      "agent": {
+        "name": "web-prod-01"
+      }
+    }
+  },
+  {
+    "_id": "alert-0009",
+    "_source": {
+      "timestamp": "2025-03-15T09:05:01.000Z",
+      "rule": {
+        "id": 592,
+        "description": "File integrity checksum changed: /etc/passwd",
+        "level": 11,
+        "mitre": {
+          "technique": ["T1565"]
+        }
+      },
+      "agent": {
+        "name": "web-prod-01"
+      }
+    }
+  },
+  {
+    "_id": "alert-0010",
+    "_source": {
+      "timestamp": "2025-03-15T09:06:45.000Z",
+      "rule": {
+        "id": 592,
+        "description": "File integrity checksum changed: /etc/shadow",
+        "level": 11,
+        "mitre": {
+          "technique": ["T1565"]
+        }
+      },
+      "agent": {
+        "name": "web-prod-01"
+      }
+    }
+  },
+  {
+    "_id": "alert-0011",
+    "_source": {
+      "timestamp": "2025-03-15T09:08:20.000Z",
+      "rule": {
+        "id": 592,
+        "description": "File integrity checksum changed: /etc/sudoers",
+        "level": 11,
+        "mitre": {
+          "technique": ["T1565"]
+        }
+      },
+      "agent": {
+        "name": "db-prod-02"
+      }
+    }
+  },
+  {
+    "_id": "alert-0012",
+    "_source": {
+      "timestamp": "2025-03-15T09:10:33.000Z",
+      "rule": {
+        "id": 592,
+        "description": "File integrity checksum changed: /etc/ssh/sshd_config",
+        "level": 11,
+        "mitre": {
+          "technique": ["T1565"]
+        }
+      },
+      "agent": {
+        "name": "db-prod-02"
+      }
+    }
+  },
+  {
+    "_id": "alert-0013",
+    "_source": {
+      "timestamp": "2025-03-15T09:12:07.000Z",
+      "rule": {
+        "id": 592,
+        "description": "File integrity checksum changed: /etc/crontab",
+        "level": 11,
+        "mitre": {
+          "technique": ["T1565"]
+        }
+      },
+      "agent": {
+        "name": "web-prod-01"
+      }
+    }
+  },
+  {
+    "_id": "alert-0014",
+    "_source": {
+      "timestamp": "2025-03-15T09:14:50.000Z",
+      "rule": {
+        "id": 592,
+        "description": "File integrity checksum changed: /etc/hosts",
+        "level": 11,
+        "mitre": {
+          "technique": ["T1565"]
+        }
+      },
+      "agent": {
+        "name": "db-prod-02"
+      }
+    }
+  },
+  {
+    "_id": "alert-0015",
+    "_source": {
+      "timestamp": "2025-03-15T09:16:18.000Z",
+      "rule": {
+        "id": 592,
+        "description": "File integrity checksum changed: /etc/resolv.conf",
+        "level": 11,
+        "mitre": {
+          "technique": ["T1565"]
+        }
+      },
+      "agent": {
+        "name": "web-prod-01"
+      }
+    }
+  },
+  {
+    "_id": "alert-0016",
+    "_source": {
+      "timestamp": "2025-03-15T10:01:12.000Z",
+      "rule": {
+        "id": 31101,
+        "description": "SQL injection attempt detected by WAF",
+        "level": 9,
+        "mitre": {
+          "technique": ["T1190"]
+        }
+      },
+      "agent": {
+        "name": "web-prod-01"
+      }
+    }
+  },
+  {
+    "_id": "alert-0017",
+    "_source": {
+      "timestamp": "2025-03-15T10:02:45.000Z",
+      "rule": {
+        "id": 31101,
+        "description": "SQL injection attempt detected by WAF",
+        "level": 9,
+        "mitre": {
+          "technique": ["T1190"]
+        }
+      },
+      "agent": {
+        "name": "web-prod-01"
+      }
+    }
+  },
+  {
+    "_id": "alert-0018",
+    "_source": {
+      "timestamp": "2025-03-15T10:04:03.000Z",
+      "rule": {
+        "id": 31101,
+        "description": "SQL injection attempt detected by WAF",
+        "level": 9,
+        "mitre": {
+          "technique": ["T1190"]
+        }
+      },
+      "agent": {
+        "name": "web-prod-01"
+      }
+    }
+  },
+  {
+    "_id": "alert-0019",
+    "_source": {
+      "timestamp": "2025-03-15T10:05:30.000Z",
+      "rule": {
+        "id": 31101,
+        "description": "SQL injection attempt detected by WAF",
+        "level": 9,
+        "mitre": {
+          "technique": ["T1190"]
+        }
+      },
+      "agent": {
+        "name": "web-prod-01"
+      }
+    }
+  },
+  {
+    "_id": "alert-0020",
+    "_source": {
+      "timestamp": "2025-03-15T10:07:11.000Z",
+      "rule": {
+        "id": 31101,
+        "description": "SQL injection attempt detected by WAF",
+        "level": 9,
+        "mitre": {
+          "technique": ["T1190"]
+        }
+      },
+      "agent": {
+        "name": "web-prod-01"
+      }
+    }
+  },
+  {
+    "_id": "alert-0021",
+    "_source": {
+      "timestamp": "2025-03-15T10:08:55.000Z",
+      "rule": {
+        "id": 31101,
+        "description": "SQL injection attempt detected by WAF",
+        "level": 9,
+        "mitre": {
+          "technique": ["T1190"]
+        }
+      },
+      "agent": {
+        "name": "web-prod-01"
+      }
+    }
+  },
+  {
+    "_id": "alert-0022",
+    "_source": {
+      "timestamp": "2025-03-15T10:10:22.000Z",
+      "rule": {
+        "id": 31101,
+        "description": "SQL injection attempt detected by WAF",
+        "level": 9,
+        "mitre": {
+          "technique": ["T1190"]
+        }
+      },
+      "agent": {
+        "name": "web-prod-01"
+      }
+    }
+  },
+  {
+    "_id": "alert-0023",
+    "_source": {
+      "timestamp": "2025-03-15T11:00:01.000Z",
+      "rule": {
+        "id": 1002,
+        "description": "Unknown problem somewhere in the system",
+        "level": 7,
+        "mitre": {
+          "technique": []
+        }
+      },
+      "agent": {
+        "name": "web-prod-01"
+      }
+    }
+  },
+  {
+    "_id": "alert-0024",
+    "_source": {
+      "timestamp": "2025-03-15T11:01:45.000Z",
+      "rule": {
+        "id": 1002,
+        "description": "Unknown problem somewhere in the system",
+        "level": 7,
+        "mitre": {
+          "technique": []
+        }
+      },
+      "agent": {
+        "name": "db-prod-02"
+      }
+    }
+  },
+  {
+    "_id": "alert-0025",
+    "_source": {
+      "timestamp": "2025-03-15T11:03:12.000Z",
+      "rule": {
+        "id": 1002,
+        "description": "Unknown problem somewhere in the system",
+        "level": 7,
+        "mitre": {
+          "technique": []
+        }
+      },
+      "agent": {
+        "name": "web-prod-01"
+      }
+    }
+  },
+  {
+    "_id": "alert-0026",
+    "_source": {
+      "timestamp": "2025-03-15T11:05:33.000Z",
+      "rule": {
+        "id": 1002,
+        "description": "Unknown problem somewhere in the system",
+        "level": 7,
+        "mitre": {
+          "technique": []
+        }
+      },
+      "agent": {
+        "name": "db-prod-02"
+      }
+    }
+  },
+  {
+    "_id": "alert-0027",
+    "_source": {
+      "timestamp": "2025-03-15T11:07:50.000Z",
+      "rule": {
+        "id": 1002,
+        "description": "Unknown problem somewhere in the system",
+        "level": 7,
+        "mitre": {
+          "technique": []
+        }
+      },
+      "agent": {
+        "name": "web-prod-01"
+      }
+    }
+  },
+  {
+    "_id": "alert-0028",
+    "_source": {
+      "timestamp": "2025-03-15T11:09:14.000Z",
+      "rule": {
+        "id": 1002,
+        "description": "Unknown problem somewhere in the system",
+        "level": 7,
+        "mitre": {
+          "technique": []
+        }
+      },
+      "agent": {
+        "name": "db-prod-02"
+      }
+    }
+  },
+  {
+    "_id": "alert-0029",
+    "_source": {
+      "timestamp": "2025-03-15T11:10:59.000Z",
+      "rule": {
+        "id": 1002,
+        "description": "Unknown problem somewhere in the system",
+        "level": 7,
+        "mitre": {
+          "technique": []
+        }
+      },
+      "agent": {
+        "name": "web-prod-01"
+      }
+    }
+  },
+  {
+    "_id": "alert-0030",
+    "_source": {
+      "timestamp": "2025-03-15T11:12:37.000Z",
+      "rule": {
+        "id": 1002,
+        "description": "Unknown problem somewhere in the system",
+        "level": 7,
+        "mitre": {
+          "technique": []
+        }
+      },
+      "agent": {
+        "name": "db-prod-02"
+      }
+    }
+  }
+]

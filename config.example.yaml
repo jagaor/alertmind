@@ -1,0 +1,56 @@
+# AlertMind — configuración de ejemplo
+#
+# Copia este fichero a config.yaml y rellena los valores reales de tu entorno:
+#
+#   cp config.example.yaml config.yaml
+#
+# No subas config.yaml al repositorio: contiene credenciales.
+# Las credenciales también pueden inyectarse por variables de entorno
+# (WAZUH_USER, WAZUH_PASSWORD) y tienen prioridad sobre lo aquí escrito.
+
+# Conexión con la API REST de Wazuh.
+wazuh:
+  # URL base del manager o indexer de Wazuh, incluyendo esquema y puerto.
+  # Ejemplo: https://wazuh.empresa.local:55000
+  url: "https://wazuh.example.local:55000"
+
+  # Usuario con permisos de lectura sobre el endpoint /alerts.
+  # Si se omite, se toma de la variable de entorno WAZUH_USER.
+  user: ""
+
+  # Contraseña del usuario anterior.
+  # Si se omite, se toma de la variable de entorno WAZUH_PASSWORD.
+  password: ""
+
+  # Verificar el certificado TLS del servidor Wazuh.
+  # Ponlo a false SOLO en laboratorios con certificados autofirmados.
+  verify_ssl: true
+
+# Parámetros del modelo local servido por Ollama.
+ollama:
+  # Endpoint de la API REST de Ollama.
+  url: "http://localhost:11434"
+
+  # Nombre del modelo a usar. Debe estar descargado previamente:
+  #   ollama pull llama3.1:8b
+  model: "llama3.1:8b"
+
+  # Tiempo máximo de espera por respuesta del modelo, en segundos.
+  timeout_s: 120
+
+# Criterios de selección y agrupación de alertas.
+alerts:
+  # Nivel mínimo de la alerta Wazuh (1-15) para ser procesada.
+  min_level: 7
+
+  # Ventana temporal hacia atrás, en minutos, desde el momento de ejecución.
+  lookback_minutes: 60
+
+  # Número máximo de alertas incluidas en cada cluster enviado al LLM.
+  # Valores altos aumentan el contexto pero también el tiempo de inferencia.
+  max_per_cluster: 25
+
+# Directorio donde se escriben los informes generados.
+output:
+  # Ruta relativa al directorio de ejecución o absoluta.
+  dir: "./reports"
